@@ -1,0 +1,12 @@
+$redesw: rgb(35, 153, 35);
+$redesi: rgb(235, 108, 186);
+$redesf: rgb(75, 105, 241);
+$text: white;
+
+$fondo:(
+    principal: rgb(37, 36, 36),
+    letras: white,
+);
+
+$princial: map-get($fondo, principal);
+$letras: map-get($fondo, letras);

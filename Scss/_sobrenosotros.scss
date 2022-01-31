@@ -1,0 +1,58 @@
+.contenedor1{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    text-align: center;
+    font-size: 25px;
+
+    h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.fondoTitulo{
+    background-color: $princial;
+    color: $letras;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+  
+.historia{
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    line-height: 35px;
+
+    h2{
+        text-align: left;
+        margin: 1rem;
+
+    }
+
+    img{
+        width: 500px;
+        float: left;
+        border-radius: 5px;
+    }
+}
+
+.historia2{
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+    line-height: 35px;
+
+    h2{
+        text-align: right;
+        margin: 1rem;
+    }
+
+    img{
+        width: 500px;
+        float: right;
+        border-radius: 5px;
+    }
+}
